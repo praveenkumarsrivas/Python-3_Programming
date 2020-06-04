@@ -23,4 +23,3 @@ if __name__ == '__main__':
         s = input()
         result = alternatingCharacters(s)
         print(result)
-
