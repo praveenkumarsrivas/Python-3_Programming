@@ -1,17 +1,16 @@
-class Praveen:
-    names = []
+class Praveen():
+    names_list = []
 
-    def add_names(self, name):
-        self.names.append(name)
+    def __init__(self, name):
+        self.name = name
+        self.names_list.append(self.name)
 
     def show(self):
-        for x in names:
-            print(self.x)
+        print(self.names_list)
 
 
-p = Praveen()
-p.add_names('pks')
-p.add_names('kumar')
-p.add_names('srivas')
-p.add_names('palera')
+p = Praveen('pks')
+p = Praveen('kumar')
+p = Praveen('srivas')
+p = Praveen('palera')
 p.show()
